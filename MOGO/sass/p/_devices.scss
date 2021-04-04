@@ -1,0 +1,11 @@
+.devices{
+          background:url("../img/divicebg.jpg") no-repeat;
+          background-position:100% 100%;
+          &__overlay{
+            @extend %bg;
+          width: 100%;
+          height: 100%;
+          }
+          .image{bottom: -16%;
+            left: 61%;  }
+}

@@ -1,0 +1,66 @@
+@import'./p/base';
+@import'./p/placeholder';
+@import'./p/about';
+@import'./p/counter';
+@import'./p/service';
+@import'./p/devices';
+@import'./p/team';
+@import'./p/work';
+@import'./p/comment';
+@import'./p/blog';
+@import'./p/footer'; 
+
+.navbarlist { background:gray !important;
+          }
+   .navbar li:hover a {color: rgb(245, 245, 151) !important; 
+                       border-bottom:rgb(245, 245, 151) 2px solid ; } 
+
+.head{background: url("../img/homebg.jpg") no-repeat;
+  background-position: center;
+ 
+   .overlay {
+         background:linear-gradient(rgba(219, 116, 117, 0.6) ,rgba(228, 205, 125, 0.75));
+       h1{font-family: 'Montserrat', sans-serif;
+          font-size: 150px;
+         line-height: 140px;
+        font-weight: 700; 
+       }
+       h4{ font-family: "Kaushan Script";
+          font-size: 72px; }
+      hr{width: 10%;
+         height: 1px;
+         background-color: white;
+        margin:2rem auto 2rem;} 
+
+        .header__line{width: 20%;
+                       margin-right: 1rem;}
+       } }
+
+
+      .brand{ background-color:#f8f8f8 ;}
+
+      
+      .accordion i{color:#95e1d3;}
+
+      @media (min-width: 320px)and (max-width:500px)  {
+        .head .overlay{ h1{font-size: 40px;
+                          line-height: 50px;}
+                        h4{ font-size: 20px;}}
+
+         .devices  .image{ width:150px ;}  
+       
+         
+   }
+
+       @media (min-width: 500px)and (max-width: 750px)  {
+            .head .overlay{ h1{font-size: 70px;
+                              line-height: 80px;}
+                            h4{ font-size: 35px;}}
+
+             .devices  .image{ width: 50%;}  
+            
+       }
+       @media (min-width: 750px)and (max-width: 1150px)  {
+         .head .overlay h1{font-size: 100px;
+                           line-height: 110px;}
+    }

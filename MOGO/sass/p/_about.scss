@@ -1,0 +1,15 @@
+@import'./placeholder';
+
+.about{
+  
+  &_content:hover {
+    box-shadow: 6px 6px 9px 1px #95e1d3;
+}
+&_content:hover .overlay{
+  opacity: 1;
+}
+ 
+  .overlay{ @extend %overlay  }
+        
+       
+}

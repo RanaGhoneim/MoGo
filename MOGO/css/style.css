@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background: url("../img/homebg.jpg") no-repeat;
+  background-position: center;
+  height: 100vh;
+}
+header .overlay {
+  background: linear-gradient(rgba(219, 116, 117, 0.6), rgba(228, 205, 125, 0.75));
+}
+header .overlay h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 150px;
+  line-height: 140px;
+  font-weight: 700;
+}
+
+/*# sourceMappingURL=style.css.map */

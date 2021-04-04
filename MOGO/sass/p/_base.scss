@@ -1,0 +1,25 @@
+body{margin: 0;
+    padding: 0;
+    box-sizing: border-box; }
+
+    p{font-family: "Roboto"; 
+    line-height: 24px;
+    color: #999999;
+     font-size: 15px;}
+
+    
+
+    header h5{
+        font-size: 24px;
+        color: #333333;
+        font-weight: 400;
+        font-family: "Kaushan Script";
+        text-align: center;
+     }
+
+     header  h2::after { content: "";
+        display: block;
+        margin:1rem auto;  
+         background-color: red;
+                height: 3px;
+            width: 60px;}   

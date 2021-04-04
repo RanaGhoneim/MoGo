@@ -1,0 +1,22 @@
+.blog__content{ 
+&-logo{background-color:#95e1d3;
+                     padding:10px 15px;
+                    bottom: 5% ;
+                   left: -12px; }
+               i{
+                   color:#95e1d3 ;
+               } }
+
+      @import'./placeholder';         
+
+
+  .map{ background:  url(' ../img/mapbg.jpg') no-repeat;
+         color:  #f38181;
+    .map__overlay{@extend %bg;
+                    h5::after{content: "";
+                             display: block;
+                             height: 2px;
+                            width: 20px;
+                           margin: 1rem auto 3rem;
+                             background-color:  #f38181; }
+    }}             
