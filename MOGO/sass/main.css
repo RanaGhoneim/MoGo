@@ -247,12 +247,33 @@ footer form button {
 }
 
 .navbarlist {
-  background: gray !important;
+  background: white !important;
+}
+
+.navbarlist a {
+  color: black !important;
+}
+
+.navbarlist li:hover a {
+  color: #868606 !important;
+  border-bottom: #646406 2px solid;
+}
+
+.navbarlist .nav__img {
+  background: url("../img/logo-gray.png") 100% 100%;
+  width: 86px;
+  height: 24px;
 }
 
 .navbar li:hover a {
   color: #f5f597 !important;
   border-bottom: #f5f597 2px solid;
+}
+
+.nav__img {
+  background: url("../img//logo.png");
+  width: 86px;
+  height: 23px;
 }
 
 .head {
